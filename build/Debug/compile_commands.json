@@ -1,0 +1,146 @@
+[
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/hx711TIM.dir/Core/Src/main.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Core/Src/main.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Core/Src/main.c",
+  "output": "CMakeFiles/hx711TIM.dir/Core/Src/main.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/hx711TIM.dir/Core/Src/gpio.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Core/Src/gpio.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Core/Src/gpio.c",
+  "output": "CMakeFiles/hx711TIM.dir/Core/Src/gpio.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/hx711TIM.dir/Core/Src/dma.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Core/Src/dma.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Core/Src/dma.c",
+  "output": "CMakeFiles/hx711TIM.dir/Core/Src/dma.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/hx711TIM.dir/Core/Src/tim.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Core/Src/tim.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Core/Src/tim.c",
+  "output": "CMakeFiles/hx711TIM.dir/Core/Src/tim.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/hx711TIM.dir/Core/Src/stm32c0xx_it.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Core/Src/stm32c0xx_it.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Core/Src/stm32c0xx_it.c",
+  "output": "CMakeFiles/hx711TIM.dir/Core/Src/stm32c0xx_it.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/hx711TIM.dir/Core/Src/stm32c0xx_hal_msp.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Core/Src/stm32c0xx_hal_msp.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Core/Src/stm32c0xx_hal_msp.c",
+  "output": "CMakeFiles/hx711TIM.dir/Core/Src/stm32c0xx_hal_msp.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/hx711TIM.dir/Core/Src/sysmem.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Core/Src/sysmem.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Core/Src/sysmem.c",
+  "output": "CMakeFiles/hx711TIM.dir/Core/Src/sysmem.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/hx711TIM.dir/Core/Src/syscalls.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Core/Src/syscalls.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Core/Src/syscalls.c",
+  "output": "CMakeFiles/hx711TIM.dir/Core/Src/syscalls.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -x assembler-with-cpp -MMD -MP -g -o CMakeFiles/hx711TIM.dir/startup_stm32c092xx.s.obj -c /home/olek/Programowanie/KNR/hx711TIM/startup_stm32c092xx.s",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/startup_stm32c092xx.s",
+  "output": "CMakeFiles/hx711TIM.dir/startup_stm32c092xx.s.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32c0xx.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Core/Src/system_stm32c0xx.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Core/Src/system_stm32c0xx.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32c0xx.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_cortex.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_cortex.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_cortex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_cortex.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc_ex.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc_ex.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc_ex.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_flash.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_flash.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_flash.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_flash.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_flash_ex.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_flash_ex.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_flash_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_flash_ex.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_gpio.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_gpio.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_gpio.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_gpio.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_dma.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_dma.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_dma.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_dma.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_dma_ex.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_dma_ex.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_dma_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_dma_ex.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_pwr.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_pwr.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_pwr.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_pwr.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_pwr_ex.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_pwr_ex.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_pwr_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_pwr_ex.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_exti.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_exti.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_exti.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_exti.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_tim.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_tim.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_tim.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_tim.c.obj"
+},
+{
+  "directory": "/home/olek/Programowanie/KNR/hx711TIM/build/Debug",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32C092xx -DUSE_HAL_DRIVER -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Core/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/STM32C0xx_HAL_Driver/Inc/Legacy -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32C0xx/Include -I/home/olek/Programowanie/KNR/hx711TIM/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m0plus  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_tim_ex.c.obj -c /home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_tim_ex.c",
+  "file": "/home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_tim_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_tim_ex.c.obj"
+}
+]

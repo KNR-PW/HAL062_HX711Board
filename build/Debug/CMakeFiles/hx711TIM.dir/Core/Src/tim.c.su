@@ -1,0 +1,4 @@
+/home/olek/Programowanie/KNR/hx711TIM/Core/Src/tim.c:31:6:MX_TIM1_Init	120	static
+/home/olek/Programowanie/KNR/hx711TIM/Core/Src/tim.c:112:6:HAL_TIM_Base_MspInit	24	static
+/home/olek/Programowanie/KNR/hx711TIM/Core/Src/tim.c:146:6:HAL_TIM_MspPostInit	48	static
+/home/olek/Programowanie/KNR/hx711TIM/Core/Src/tim.c:174:6:HAL_TIM_Base_MspDeInit	16	static
