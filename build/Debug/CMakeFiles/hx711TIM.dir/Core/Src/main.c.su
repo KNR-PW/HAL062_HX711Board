@@ -1,0 +1,6 @@
+/home/olek/Programowanie/KNR/hx711TIM/Core/Src/main.c:67:6:get_reading	32	static
+/home/olek/Programowanie/KNR/hx711TIM/Core/Src/main.c:78:6:DMA_TransferCompleteCallback	16	static
+/home/olek/Programowanie/KNR/hx711TIM/Core/Src/main.c:83:6:HAL_GPIO_EXTI_Callback	16	static
+/home/olek/Programowanie/KNR/hx711TIM/Core/Src/main.c:116:5:main	8	static
+/home/olek/Programowanie/KNR/hx711TIM/Core/Src/main.c:162:6:SystemClock_Config	64	static
+/home/olek/Programowanie/KNR/hx711TIM/Core/Src/main.c:204:6:Error_Handler	8	static
