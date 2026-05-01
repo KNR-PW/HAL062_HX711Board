@@ -41,7 +41,6 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
-volatile int gpio_transfer_done=0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -150,8 +149,6 @@ void DMA1_Channel1_IRQHandler(void)
   /* USER CODE END DMA1_Channel1_IRQn 0 */
   HAL_DMA_IRQHandler(&hdma_tim1_ch1);
   /* USER CODE BEGIN DMA1_Channel1_IRQn 1 */
-  if(__HAL_DMA_GET_FLAG(&hdma, DMA_FLAG_TC1))
-    gpio_transfer_done=1;
   /* USER CODE END DMA1_Channel1_IRQn 1 */
 }
 

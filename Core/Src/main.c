@@ -48,7 +48,7 @@
 
 /* USER CODE BEGIN PV */
 extern DMA_HandleTypeDef hdma_tim1_ch1;
-extern volatile int gpio_transfer_done=0; //mozliwe ze nie potrzebne
+volatile int gpio_transfer_done=0; //mozliwe ze nie potrzebne
 volatile uint8_t data_ready[MODULES_NUM] = {0};
 volatile uint32_t gpio_buffer[SAMPLES] = {0};
 int32_t reading[MODULES_NUM] = {0};
