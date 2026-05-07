@@ -20,6 +20,7 @@
 #include "main.h"
 #include "dma.h"
 #include "fdcan.h"
+#include "stm32c0xx_hal_cortex.h"
 #include "tim.h"
 #include "gpio.h"
 
@@ -53,6 +54,7 @@ volatile uint8_t data_ready[MODULES_NUM] = {0};
 volatile uint32_t gpio_buffer[SAMPLES] = {0};
 int32_t reading[MODULES_NUM] = {0};
 volatile int measuring_request = 0;
+int sending_data = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -142,6 +144,22 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    if(measuring_request == 1 && sending_data == 0){
+      HAL_NVIC_DisableIRQ(EXTI4_15_IRQn);
+      HAL_DMA_Start_IT(&hdma_tim1_ch1, (uint32_t)&GPIOA->IDR, (uint32_t)gpio_buffer, SAMPLES);
+      __HAL_TIM_ENABLE_DMA(&htim1, TIM_CHANNEL_1);
+      HAL_TIM_PWM_Start(&htim, TIM_CHANNEL_1);  //RCR=25-1
+      measuring_request = 0;
+      //__WFI();  //zobaczymy czy zostawic
+    }
+    if(gpio_transfer_done == 1){
+      HAL_NVIC_EnableIRQ(EXTI4_15_IRQn);
+      sending_data = 1;
+      get_reading(reading, gpio_buffer);
+      //zaimplementowac konwersje na [g], kalibracje
+      //implementacja ramki can
+      //sending data = 0 po skonczeniu wysylania na can
+    }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
