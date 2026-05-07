@@ -143,21 +143,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    if(measuring_request == 1){
-      HAL_NVIC_DisableIRQ(EXTI4_15_IRQn); //wylaczenie przerwan na EXTI na czas przetwarzania odczytu
-      HAL_DMA_Start_IT(&hdma_tim1_ch1, (uint32_t)&GPIOA->IDR, (uint32_t)gpio_buffer, SAMPLES);
-      __HAL_TIM_ENABLE_DMA(&htim1, TIM_DMA_CC1);
-      HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1); //timer w one pulse mode, RCR=25-1
-      gpio_transfer_done=0;
-      data_ready[0] = 0;
-      data_ready[1] = 0;
-      data_ready[2] = 0;
-    }
-    if(gpio_transfer_done == 1){
-      HAL_NVIC_EnableIRQ(EXTI4_15_IRQn);  //wlaczenie przerwan EXTI po pomiarze
-      gpio_transfer_done=0;
-      get_reading(reading, gpio_buffer);
-    }
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

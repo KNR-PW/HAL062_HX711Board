@@ -10,5 +10,5 @@
 /home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_flash.c:513:19:HAL_FLASH_OB_Launch	8	static
 /home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_flash.c:556:10:HAL_FLASH_GetError	8	static
 /home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_flash.c:580:19:FLASH_WaitForLastOperation	24	static
-/home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_flash.c:631:13:FLASH_Program_DoubleWord	32	static
-/home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_flash.c:653:24:FLASH_Program_Fast	40	static
+/home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_flash.c:631:13:FLASH_Program_DoubleWord	32	static,ignoring_inline_asm
+/home/olek/Programowanie/KNR/hx711TIM/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_flash.c:653:24:FLASH_Program_Fast	40	static,ignoring_inline_asm
