@@ -48,11 +48,11 @@
 
 /* USER CODE BEGIN PV */
 extern DMA_HandleTypeDef hdma_tim1_ch1;
-extern volatile int gpio_transfer_done=0; //mozliwe ze nie potrzebne
+volatile int gpio_transfer_done=0;
 volatile uint8_t data_ready[MODULES_NUM] = {0};
 volatile uint32_t gpio_buffer[SAMPLES] = {0};
 int32_t reading[MODULES_NUM] = {0};
-volatile int measuring = 0;
+volatile int measuring_request = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -65,10 +65,12 @@ void SystemClock_Config(void);
 /* USER CODE BEGIN 0 */
 
 void get_reading(int32_t *read, uint32_t *gpio_buff){
+  for(int i=0; i<MODULES_NUM; i++)
+    read[i] = 0;
   for(int i=0; i<SAMPLES - 1; i++){
     for(int j=0; j<MODULES_NUM; j++){
       uint32_t one_bit = (gpio_buff[i] >> (5+j)) & 1;
-      read[j] |= (one_bit << SAMPLES - 1 - i);  //kolejnosc MSB
+      read[j] |= (one_bit << (SAMPLES - 1 - i));  //kolejnosc MSB
     }
   }
   for(int i=0; i<MODULES_NUM; i++){
@@ -79,13 +81,11 @@ void get_reading(int32_t *read, uint32_t *gpio_buff){
 
 void DMA_TransferCompleteCallback(DMA_HandleTypeDef *hdma){
   gpio_transfer_done = 1;
-  HAL_NVIC_EnableIRQ(EXTI4_15_IRQn);  //wlaczenie przerwan po pomiarze
 }
 
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
-  switch(GPIO_Pin)
-  {
+  switch(GPIO_Pin){
     case DATA1_Pin:
       data_ready[0] = 1;
       break;
@@ -96,16 +96,8 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
       data_ready[2] = 1;
       break;
   }
-  if(data_ready[0] && data_ready[1] && data_ready[2])
-  {
-    HAL_NVIC_DisableIRQ(EXTI4_15_IRQn); //wylaczenie przerwan na EXTI na czas przetwarzania odczytu
-    HAL_DMA_Start_IT(&hdma_tim1_ch1, (uint32_t)&GPIOA->IDR, (uint32_t)gpio_buffer, SAMPLES);
-    __HAL_TIM_ENABLE_DMA(&htim1, TIM_DMA_CC1);
-    HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1); //timer w one pulse mode, RCR=25-1
-    gpio_transfer_done=0;
-    data_ready[0] = 0;
-    data_ready[1] = 0;
-    data_ready[2] = 0;
+  if(data_ready[0] && data_ready[1] && data_ready[2]){
+    measuring_request = 1;
   }
 }
 /* USER CODE END 0 */
