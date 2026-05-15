@@ -20,6 +20,8 @@
 #include "main.h"
 #include "dma.h"
 #include "fdcan.h"
+#include "stm32c0xx_hal_cortex.h"
+#include "stm32c0xx_hal_fdcan.h"
 #include "tim.h"
 #include "gpio.h"
 
@@ -53,6 +55,7 @@ volatile uint8_t data_ready[MODULES_NUM] = {0};
 volatile uint32_t gpio_buffer[SAMPLES] = {0};
 int32_t reading[MODULES_NUM] = {0};
 volatile int measuring_request = 0;
+int sending_data = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -64,12 +67,12 @@ void SystemClock_Config(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-void get_reading(int32_t *read, uint32_t *gpio_buff){
+void get_reading(int32_t *read){
   for(int i=0; i<MODULES_NUM; i++)
     read[i] = 0;
   for(int i=0; i<SAMPLES - 1; i++){
     for(int j=0; j<MODULES_NUM; j++){
-      uint32_t one_bit = (gpio_buff[i] >> (5+j)) & 1;
+      uint32_t one_bit = (gpio_buffer[i] >> (5+j)) & 1;
       read[j] |= (one_bit << (SAMPLES - 1 - i));  //kolejnosc MSB
     }
   }
@@ -136,12 +139,30 @@ int main(void)
   MX_FDCAN1_Init();
   /* USER CODE BEGIN 2 */
   hdma_tim1_ch1.XferCpltCallback = DMA_TransferCompleteCallback;
+  HAL_FDCAN_Start(&hfdcan1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    if(measuring_request == 1 && sending_data == 0){
+      HAL_NVIC_DisableIRQ(EXTI4_15_IRQn);
+      HAL_DMA_Start_IT(&hdma_tim1_ch1, (uint32_t)&GPIOA->IDR, (uint32_t)gpio_buffer, SAMPLES);
+      __HAL_TIM_ENABLE_DMA(&htim1, TIM_CHANNEL_1);
+      HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);  //RCR=25-1
+      measuring_request = 0;
+      //__WFI();  //zobaczymy czy zostawic
+    }
+    if(gpio_transfer_done == 1){
+      HAL_NVIC_EnableIRQ(EXTI4_15_IRQn);
+      sending_data = 1;
+      get_reading(reading);
+      //zaimplementowac konwersje na [g], kalibracje
+      //implementacja ramki can
+      HAl_FDCAN_
+      //sending data = 0 po skonczeniu wysylania na can w przerwaniu
+    }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
